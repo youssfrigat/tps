@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="tp2.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <form></form>
+        <table>
+                <tr>
+                    <span class="ssa">Inscription</span>
+                </tr>
+                <tr>
+                    <td>Nom</td>
+                    <td  class="int2" ><input type="text" name="nom" id="nom"></td>
+                </tr>
+                <tr>
+                    <td >Prénom</td>
+                    <td  class="int2"><input type="text" name="prenom" id="prenom"></td>
+                </tr>
+                <tr>
+                    <td>Sexe</td>
+                    <td >
+                        <input type="radio" name="sexe" id="masculin" value="masculin">
+                        <label for="masculin">Masculin</label>
+                        <input type="radio" name="sexe" id="feminin" value="feminin">
+                        <label for="feminin">Féminin</label>
+                    </td>
+                </tr>
+                <tr >
+                    <td>Date de naissance</td>
+                    <td class="int2"><input type="date" name="date_naissance" id="date_naissance"></td>
+                </tr>
+                <tr>
+                    <td >Niveau</td>
+                    <td class="int2">
+                        <select name="niveau" id="niveau">
+                            <option value="1">1ère année</option>
+                            <option value="2">2ème année</option>
+                            <option value="3">3ème année</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr >
+                    <td>Spécialité</td>
+                    <td >
+                        <input class="s1" type="text" name="specialite" id="specialite">
+                    </td>
+                </tr>
+                <tr >
+                    <td  >Telephone</td>
+                    <td class="int2"><input type="tel" name="telephone" id="telephone"></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td class="int2"><input type="email" name="email" id="email"></td>
+                </tr>
+                <tr >
+                    <td>Site web personnel</td>
+                    <td class="int2"><input type="url" name="site_web" id="site_web"></td>
+                </tr>
+                <tr >
+                    <td>Adresse</td>
+                    <td class="int2">
+                        <textarea name="adresse" id="adresse" cols="30" rows="5"></textarea>
+                    </td>
+                </tr >
+                <tr >
+                   <td>photo</td>
+                   <td class="int2"><input type="file" name="photo" id="photo"></td>
+                </tr>
+            
+        </table>
+        </form>
+    </div>
+    
+</body>
+</html>

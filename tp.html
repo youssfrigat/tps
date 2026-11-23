@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main {
+            position: absolute;
+            max-width: 460px;
+            padding: 15px 30px;
+            background-color: lightblue;
+            background-image: linear-gradient(white, #ADD8E6, white);
+            border-style: groove;
+            border-width: 4px;
+            border-color: #00CED1;
+            border-radius: 150px 150px 150px 150px;
+
+            text-align: center;
+        }
+
+        #pass,
+        #user {
+            background-color: yellow;
+            border-radius: 20px 20px 20px 20px;
+            border: 2px solid rgb(189, 29, 29);
+            border-top-color: rgb(20, 141, 255);
+            border-bottom-color: rgb(20, 141, 255);
+        
+        }
+        label,input{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <h3>Authentification</h3>
+        <table>
+            <tr>
+                <td>
+                    <label for="user">Nom d'utilisateur</label>
+                </td>
+                <td>
+                     <input type="text" id="user" name="user">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="pass">Mot de passe</label>
+                </td>
+                <td>
+                    <input type="password" id="pass" name="pass">
+                </td>
+            </tr>
+            <tr >
+                <td colspan="2" >
+                    <input type="reset" value="Réinitialiser">
+                    <input type="submit" value="Envoyer">
+                </td>
+
+            </tr>
+
+        </table>
+
+    </div>
+
+</body>
+
+</html>
